@@ -62,6 +62,7 @@ public class ClothingNShoes extends BasicPage {
 	public WebElement getItemTypeCheck() {
 		return this.driver.findElement(By.xpath("//*[@id=\"search-filter-form\"]/div/div[1]/div[6]/fieldset/div/div/div[1]/label"));
 	}
+	
 	//ship for serbia selector  - you need location selector
 	public WebElement getShipButton() {
 		return this.driver.findElement(By.name("ship_to"));

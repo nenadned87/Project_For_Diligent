@@ -48,5 +48,16 @@
 	<classpathentry kind="lib" path="/home/ned/Downloads/poi-5.0.0/auxiliary/bcprov-jdk15on-1.68.jar"/>
 	<classpathentry kind="lib" path="/home/ned/Downloads/poi-5.0.0/auxiliary/bcpkix-jdk15on-1.68.jar"/>
 	<classpathentry kind="lib" path="/home/ned/Downloads/poi-5.0.0/auxiliary/batik-all-1.13.jar"/>
+	<classpathentry kind="lib" path="/home/ned/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0.jar" sourcepath="/home/ned/.m2/repository/org/testng/testng/7.4.0/testng-7.4.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="org.testng"/>
+			<attribute name="maven.artifactId" value="testng"/>
+			<attribute name="maven.version" value="7.4.0"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
