@@ -21,6 +21,14 @@ public class ToysNEntertainmants extends BasicPage {
 	public WebElement navForToysNE() {
 		return this.driver.findElement(By.xpath("//*[@id=\"desktop-category-nav\"]/div[1]/div/ul/li[5]/a"));
 	}
+	//message you are on that page
+	public WebElement messageForTNE() {
+		return this.driver.findElement(By.xpath("//*[@id=\"content\"]/div/div[1]/div/div[2]/div[1]/div[2]/div[1]/div/div/h1"));
+	}
+	// add to cart button is present
+	public WebElement addToCartButton() {
+		return this.driver.findElement(By.xpath("//*[@id=\"listing-page-cart\"]/div[3]/div[1]/div[2]/div[2]/form/div/button"));
+	}
 	//navigator for art and photography books
 	public WebElement navForANF(){
 		return this.driver.findElement(By.id("catnav-l4-11069"));

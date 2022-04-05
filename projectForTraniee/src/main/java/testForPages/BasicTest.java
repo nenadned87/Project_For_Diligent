@@ -48,7 +48,7 @@ public class BasicTest {
 
 		
 		protected String email = "nenadgrbicned1987@gmail.com";
-		protected String fristName = "Nenad";
+		protected String name = "Nenad";
 		protected String password = "tgmtgm123123";
 
 		@BeforeMethod
@@ -76,7 +76,10 @@ public class BasicTest {
 		@AfterMethod
 
 		public void afterMethod(ITestResult result) {
-
+			
+			driver.manage().deleteAllCookies();
+			driver.navigate().refresh();
+			
 			if (ITestResult.FAILURE == result.getStatus()) {
 				try {
 					TakesScreenshot ts = (TakesScreenshot) driver;
